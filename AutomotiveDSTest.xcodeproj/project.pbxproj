@@ -75,7 +75,6 @@
 				12772EFF222C2C73004CA8AD /* Resources */,
 				12772EEA222AF14B004CA8AD /* LaunchScreen.storyboard */,
 				12772EED222AF14B004CA8AD /* Info.plist */,
-				12772F00222C2C79004CA8AD /* Supporting Files */,
 			);
 			path = AutomotiveDSTest;
 			sourceTree = "<group>";
@@ -120,13 +119,6 @@
 				12772EE8222AF14B004CA8AD /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		12772F00222C2C79004CA8AD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		12772F01222C2C93004CA8AD /* Application Delegate */ = {
