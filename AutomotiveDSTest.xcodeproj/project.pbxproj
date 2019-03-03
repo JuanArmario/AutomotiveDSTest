@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		12772EE2222AF14A004CA8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12772EE1222AF14A004CA8AD /* AppDelegate.swift */; };
-		12772EE4222AF14A004CA8AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12772EE3222AF14A004CA8AD /* ViewController.swift */; };
+		12772EE4222AF14A004CA8AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12772EE3222AF14A004CA8AD /* MainViewController.swift */; };
 		12772EE7222AF14A004CA8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12772EE5222AF14A004CA8AD /* Main.storyboard */; };
 		12772EE9222AF14B004CA8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12772EE8222AF14B004CA8AD /* Assets.xcassets */; };
 		12772EEC222AF14B004CA8AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12772EEA222AF14B004CA8AD /* LaunchScreen.storyboard */; };
+		12772EF6222B08C0004CA8AD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12772EF5222B08C0004CA8AD /* MenuViewController.swift */; };
+		12772EF8222B0E79004CA8AD /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12772EF7222B0E79004CA8AD /* SideMenu.swift */; };
+		12772EFA222C1685004CA8AD /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12772EF9222C1685004CA8AD /* UIButton.swift */; };
+		12772F08222C3F07004CA8AD /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12772F07222C3F07004CA8AD /* PopUpView.swift */; };
+		12772F0A222C3F1A004CA8AD /* PopUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12772F09222C3F1A004CA8AD /* PopUpView.xib */; };
+		12772F0C222C4AF3004CA8AD /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12772F0B222C4AF3004CA8AD /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12772EDE222AF14A004CA8AD /* AutomotiveDSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomotiveDSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12772EE1222AF14A004CA8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12772EE3222AF14A004CA8AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12772EE3222AF14A004CA8AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		12772EE6222AF14A004CA8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12772EE8222AF14B004CA8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12772EEB222AF14B004CA8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12772EED222AF14B004CA8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12772EF5222B08C0004CA8AD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		12772EF7222B0E79004CA8AD /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		12772EF9222C1685004CA8AD /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		12772F07222C3F07004CA8AD /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		12772F09222C3F1A004CA8AD /* PopUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpView.xib; sourceTree = "<group>"; };
+		12772F0B222C4AF3004CA8AD /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,84 @@
 		12772EE0222AF14A004CA8AD /* AutomotiveDSTest */ = {
 			isa = PBXGroup;
 			children = (
-				12772EE1222AF14A004CA8AD /* AppDelegate.swift */,
-				12772EE3222AF14A004CA8AD /* ViewController.swift */,
-				12772EE5222AF14A004CA8AD /* Main.storyboard */,
-				12772EE8222AF14B004CA8AD /* Assets.xcassets */,
+				12772F01222C2C93004CA8AD /* Application Delegate */,
+				12772EFC222C2C36004CA8AD /* View Controllers */,
+				12772F02222C2CB0004CA8AD /* Views */,
+				12772EFD222C2C47004CA8AD /* Side Menu */,
+				12772EFB222C18CD004CA8AD /* Extensions */,
+				12772EFE222C2C69004CA8AD /* Storyboards */,
+				12772EFF222C2C73004CA8AD /* Resources */,
 				12772EEA222AF14B004CA8AD /* LaunchScreen.storyboard */,
 				12772EED222AF14B004CA8AD /* Info.plist */,
+				12772F00222C2C79004CA8AD /* Supporting Files */,
 			);
 			path = AutomotiveDSTest;
+			sourceTree = "<group>";
+		};
+		12772EFB222C18CD004CA8AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12772EF9222C1685004CA8AD /* UIButton.swift */,
+				12772F0B222C4AF3004CA8AD /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		12772EFC222C2C36004CA8AD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12772EE3222AF14A004CA8AD /* MainViewController.swift */,
+				12772EF5222B08C0004CA8AD /* MenuViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		12772EFD222C2C47004CA8AD /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				12772EF7222B0E79004CA8AD /* SideMenu.swift */,
+			);
+			name = "Side Menu";
+			sourceTree = "<group>";
+		};
+		12772EFE222C2C69004CA8AD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				12772EE5222AF14A004CA8AD /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		12772EFF222C2C73004CA8AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12772EE8222AF14B004CA8AD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12772F00222C2C79004CA8AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12772F01222C2C93004CA8AD /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				12772EE1222AF14A004CA8AD /* AppDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		12772F02222C2CB0004CA8AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12772F07222C3F07004CA8AD /* PopUpView.swift */,
+				12772F09222C3F1A004CA8AD /* PopUpView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12772EEC222AF14B004CA8AD /* LaunchScreen.storyboard in Resources */,
+				12772F0A222C3F1A004CA8AD /* PopUpView.xib in Resources */,
 				12772EE9222AF14B004CA8AD /* Assets.xcassets in Resources */,
 				12772EE7222AF14A004CA8AD /* Main.storyboard in Resources */,
 			);
@@ -135,8 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12772EE4222AF14A004CA8AD /* ViewController.swift in Sources */,
+				12772EE4222AF14A004CA8AD /* MainViewController.swift in Sources */,
+				12772EF8222B0E79004CA8AD /* SideMenu.swift in Sources */,
 				12772EE2222AF14A004CA8AD /* AppDelegate.swift in Sources */,
+				12772F0C222C4AF3004CA8AD /* UIView.swift in Sources */,
+				12772F08222C3F07004CA8AD /* PopUpView.swift in Sources */,
+				12772EF6222B08C0004CA8AD /* MenuViewController.swift in Sources */,
+				12772EFA222C1685004CA8AD /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JAM.test.AutomotiveDSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JAM.test.AutomotiveDSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
